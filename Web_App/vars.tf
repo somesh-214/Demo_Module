@@ -9,6 +9,7 @@ variable "location" {
 }
 variable "rg_name" {
     type = string 
+default = "Shivam-resourcegroup"
   
 }
 variable "web_app_name" {
